@@ -10,6 +10,9 @@ and to [Subscribe to my youtube channel](http://youtube.com/channel/UCnED3K6K5FD
 ## Sources: 
 [Unmanic Website](https://github.com/Unmanic/unmanic)  
 
+## Alternative: 
+[Handbrake](https://www.youtube.com/watch?v=dkpm3dGTi-I)  
+
 ## Docker command:  
 ```shell
 docker run -d \
