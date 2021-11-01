@@ -1,4 +1,18 @@
 # docker_unmanic
+<?php
+
+// Change channelid value to match your YouTube channel ID
+$url = 'https://www.youtube.com/subscribe_embed?channelid=UCnED3K6K5FDUp-x_8rwpsZw';
+
+// Fetch the Subscribe button HTML
+$button_html = file_get_contents( $url );
+
+// Extract the subscriber count
+$found_subscribers = preg_match( '/="0">(\d+)</i', $button_html, $matches );
+
+if ( $found_subscribers && isset( $matches[1] ) ) {
+    echo intval( $matches[1] );
+}
 
 ## Tonton Jo - 2021  
 ### Join the community:
