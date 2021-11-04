@@ -1,4 +1,4 @@
-# docker_unmanic
+# Unmatic
 
 ## Tonton Jo - 2021  
 ### Join the community:
